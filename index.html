@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Əlaqə</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f4f4f4, #e0e0e0);
+        }
+
+        .header {
+            margin-top: 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .image-container {
+            margin-bottom: 20px;
+        }
+
+        .image-container img {
+            max-width: 20%; /* Ölçünü kiçiltmək üçün dəyişdirildi */
+            height: auto;
+            border-radius: 50px;
+            box-shadow: 0 6px 80px rgb(255, 0, 0);
+            transition: transform 0.3s ease;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.05);
+        }
+
+        .header h1 {
+            margin-top: 10px;
+            font-size: 2.5em;
+            color: #333;
+        }
+
+        .social-buttons {
+            margin-top: 30px;
+        }
+
+        .social-buttons a {
+            display: inline-flex;
+            align-items: center;
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            padding: 12px 20px;
+            border-radius: 50px;
+            box-shadow: 0 4px 6px rgba(190, 102, 102, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            background-color: #555;
+        }
+
+        .social-buttons a img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+
+        .social-buttons a:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .social-buttons a.facebook {
+            background-color: #3b5998;
+        }
+
+        .social-buttons a.twitter {
+            background-color: #1da1f2;
+        }
+
+        .social-buttons a.instagram {
+            background-color: #e1306c;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(-20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Vurğun Dədəyev</h1>
+        <div class="image-container">
+            <img src="WhatsApp Şəkil 2025-01-27 saat 23.50.28_111d736b.jpg" alt="Başlıq şəkli 1">
+        </div>
+        <div class="social-buttons">
+            <a href="https://dr112233.github.io/Az/" class="facebook" target="_blank">Whatsapp</a>
+            <a href="https://dr112233.github.io/Az2/" class="twitter" target="_blank">E-Mail</a>
+            <a href="https://www.instagram.com/ddyv_o7?igsh=MWN0NXYwbDJyaHFlZA==" class="instagram" target="_blank">Instagram</a>
+        </div>
+    </div>
+</body>
+</html>

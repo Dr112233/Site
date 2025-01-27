@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f4f4f4, #e0e0e0);
+}
+
+.header {
+    margin-top: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.image-container {
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 50px;
+    box-shadow: 0 6px 80px rgb(255, 0, 0);
+    transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.05);
+}
+
+.header h1 {
+    margin-top: 10px;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.social-buttons {
+    margin-top: 30px;
+}
+
+.social-buttons a {
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 12px 20px;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(190, 102, 102, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.social-buttons a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.social-buttons a.facebook {
+    background-color: #3b5998;
+}
+
+.social-buttons a.twitter {
+    background-color: #1da1f2;
+}
+
+.social-buttons a.instagram {
+    background-color: #e1306c;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
