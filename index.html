@@ -85,11 +85,17 @@
             0% { opacity: 0; transform: translateY(-20px); }
             100% { opacity: 1; transform: translateY(0); }
         }
+
+        @media (max-width: 768px) {
+            .image-container img {
+                max-width: 50%; /* Telefon ekranlarında şəkil ölçüsünü artırır */
+            }
+        }
     </style>
 </head>
 <body>
     <div class="header">
-        <h1>Vurğun Dədəye</h1>
+        <h1>Vurğun Dədəyev</h1>
         <div class="image-container">
             <img src="WhatsApp Şəkil 2025-01-27 saat 23.50.28_111d736b.jpg" alt="Başlıq şəkli 1">
         </div>
